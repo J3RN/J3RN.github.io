@@ -10,3 +10,6 @@
 [submodule "genetic_cars_2"]
 	path = genetic_cars_2
 	url = https://github.com/J3RN/HTML5_Genetic_Cars
+[submodule "octotest"]
+	path = octotest
+	url = https://github.com/J3RN/octotest
