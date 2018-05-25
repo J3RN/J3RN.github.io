@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento|Oxygen);
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  background: #DDD;
+  padding: 0 15px 15px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 15px 0;
+}
+
+h3, h4, a {
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  font-size: 1.25em;
+  text-align: justify;
+  line-height: 2em;
+}
+
+img.img-responsive {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+hr.header-underline {
+  width: 30%;
+  border: 1px solid red;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.inline-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list li {
+  margin: 0 20px;
+}
+
+nav {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: white;
+  max-width: 1170px;
+  margin: 15px auto 0 auto;
+  padding: 30px 0;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 3px #A9A9A9;
+}
+
+.container > h2 {
+  font-weight: normal;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  margin: 15px;
+}
+
+.content > img, .content > .text-content {
+  grid-column: 1  / span 12;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* Desktop-only */
+@media only screen and (min-width: 991px) {
+  .content > img {
+    grid-column: auto / span 4;
+  }
+
+  .content > .text-content {
+    grid-column: auto / span 8;
+  }
+
+  .inline-list li {
+    display: inline;
+  }
+}
