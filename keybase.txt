@@ -4,47 +4,79 @@ https://keybase.io/j3rn
 
 I hereby claim:
 
-  * I am an admin of http://j3rn.com
+  * I am an admin of https://j3rn.com
   * I am j3rn (https://keybase.io/j3rn) on keybase.
-  * I have a public key ASBhifQXfnaOXVcs8wkePXEhYqHf5sX7-XkL_U5IX_CALwo
+  * I have a public key with fingerprint 9B9A B9F7 D2DD 65BA 43A7  4E40 B719 DF34 107E 89E8
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "01206189f4177e768e5d572cf3091e3d712162a1dfe6c5fbf9790bfd4e485ff0802f0a",
-            "host": "keybase.io",
-            "kid": "01206189f4177e768e5d572cf3091e3d712162a1dfe6c5fbf9790bfd4e485ff0802f0a",
-            "uid": "caf41df838951a0f31757d0bd7b08200",
-            "username": "j3rn"
-        },
-        "service": {
-            "hostname": "j3rn.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "01206189f4177e768e5d572cf3091e3d712162a1dfe6c5fbf9790bfd4e485ff0802f0a",
+      "fingerprint": "9b9ab9f7d2dd65ba43a74e40b719df34107e89e8",
+      "host": "keybase.io",
+      "key_id": "b719df34107e89e8",
+      "kid": "0101ddb4389e989a39bd87735ff8e6f752b548dcb918fa360af02faf2d08e299091a0a",
+      "uid": "caf41df838951a0f31757d0bd7b08200",
+      "username": "j3rn"
     },
-    "client": {
-        "name": "keybase.io go client",
-        "version": "1.0.13"
-    },
-    "ctime": 1458351819,
-    "expire_in": 504576000,
     "merkle_root": {
-        "ctime": 1458351768,
-        "hash": "ed3a6154e0fb44a3dded91c88a661094dd06dae1a67077c8e3583d2f9f33b6ce609cce269c108854ba4dfcd430d723ba4ea7768615bfc3b86999c86d91af672f",
-        "seqno": 413726
+      "ctime": 1527271117,
+      "hash_meta": "4d8001c669bcc6e0de3d65e9ccdd953191107e183e7933ec5d7f1f7dd0a3cad6",
+      "seqno": 2915528
     },
-    "prev": "3895279e22f3286001a536cf1c522589843d3c9c66c976477f099f6574874893",
-    "seqno": 18,
-    "tag": "signature"
+    "revoke": {
+      "sig_ids": [
+        "12ee9c777b8c12969524153d04816dec391c3c40648b785084fb68ae648332550f"
+      ]
+    },
+    "service": {
+      "hostname": "j3rn.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1527271118,
+  "expire_in": 157680000,
+  "prev": "c37a0f44a4efb5abcae33d07c75062732cefd8b686f63979ff3ed1187253dd9d",
+  "seqno": 22,
+  "tag": "signature"
 }
 
 which yields the signature:
 
-g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYYn0F352jl1XLPMJHj1xIWKh3+bF+/l5C/1OSF/wgC8Kp3BheWxvYWTFAux7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjE4OWY0MTc3ZTc2OGU1ZDU3MmNmMzA5MWUzZDcxMjE2MmExZGZlNmM1ZmJmOTc5MGJmZDRlNDg1ZmYwODAyZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjE4OWY0MTc3ZTc2OGU1ZDU3MmNmMzA5MWUzZDcxMjE2MmExZGZlNmM1ZmJmOTc5MGJmZDRlNDg1ZmYwODAyZjBhIiwidWlkIjoiY2FmNDFkZjgzODk1MWEwZjMxNzU3ZDBiZDdiMDgyMDAiLCJ1c2VybmFtZSI6Imozcm4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6Imozcm4uY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xMyJ9LCJjdGltZSI6MTQ1ODM1MTgxOSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDU4MzUxNzY4LCJoYXNoIjoiZWQzYTYxNTRlMGZiNDRhM2RkZWQ5MWM4OGE2NjEwOTRkZDA2ZGFlMWE2NzA3N2M4ZTM1ODNkMmY5ZjMzYjZjZTYwOWNjZTI2OWMxMDg4NTRiYTRkZmNkNDMwZDcyM2JhNGVhNzc2ODYxNWJmYzNiODY5OTljODZkOTFhZjY3MmYiLCJzZXFubyI6NDEzNzI2fSwicHJldiI6IjM4OTUyNzllMjJmMzI4NjAwMWE1MzZjZjFjNTIyNTg5ODQzZDNjOWM2NmM5NzY0NzdmMDk5ZjY1NzQ4NzQ4OTMiLCJzZXFubyI6MTgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA+YYCVj+Ra5X9GkBgHfhn8wzsweEa9Zc6MEf8sgt312nX4dndl2KSFEm9ARRTrJ/f71ux7XZ5jyComhPQRq9qAqhzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+-----BEGIN PGP MESSAGE-----
+
+owFtU2tMFUcUBrEGTI2gkagFH2tTYwNkZmd3Z+ZWxPqAalVsi9r64Lq7M4PLlXvh
+3gviA9T6pFURrWlQA9b6AANa+4iKSrU1bYNaE9MqNlrSIAa1WqGkJiq2s6Qmpun+
+2cyZc77zfd85s7VfVER05LEhLVpsaVl75PnbVsS86BnNyxUrwJYqnuWKj/f8+GLG
+Q2Gvz2GKRwFQBQYkVGgQY44NwnWmY9UWCFDIEcNQhYZqQia4YevCEhRTYAmmcY3o
+QgACVAFMJUkRjj+HB/ODjj8sYalFTYsKzFTGDN0yNWRiWQIsDCkTSIMAc0I5kYWL
+AiG3QpKzzBBPcQIyJg/eHnr/k/+MN4CMWRqSUUqoiajFCMZIciLcEFhXLV0jzLYo
+JMJEBjCFZGoKlQHCVUqlOrOHd2EPnG1KA5ggEk6XFwJBrGMGLIYtQFQA3MQQD/rN
+PC6zc1HQr5QkKXk86FvMvcFAIOwaa4cd9xrqKlYxhBBLcWZokTePh01ZpTECALQN
+g1q2bXDApL2GzqltM0Z1BCl0VUKCOKYIcVtnWEBpIQMmsk1mSA4hXuAPKB6VQl1X
+iWQQ5EUBH3ebh5wcaVlI8cxToMolKsZnAtgiNlSpQXVVgzpiQCPQYNxGFNrI1oCh
+EQsTHRBNWAYxuTwjpOo6EMqCErddsMixe+DdKT2nPsUO5Ek++cFAOGAHFsvoonA4
+P+RxXQkvzXfTlnDL+y+A13L8TO6HrCjiwZAT8EuXZOZ/DSNJCi/Od4Lc67gZulxH
+ID+3Dy9yp4SwnI2mmRoXlm5atsmRFIVtrANDxUi1uWBEKjGEgeSiCoE4k7BYldoZ
+Zc85qEqeZo7ElL75zXBhkCslfct6od4RkdERifEje+/aeeLh5Ru8YeLBGeOfvakX
+erkPKqJvTOyziLWt/98Tpk9xHnz7RVwpjdMb2wZN+TPX2f7eifT0Y0bXhqIL+0YP
+TymsXz2sxaqiyZPGx+LfS99J7QzFa0+XvRX2+O5OTqzZe7RbvTLs/qNztX3e3H/k
+tbYztZ0o9XjsmPOtTSsTnYysIfvWd9cvG/B1uRg6bUspWX12zqCo7XnDTpleb+UP
+yb60I7l7PkgfOTBaDH6o6T/H3OgqyWuZ5Lk5oDE7uWvWH3WPo2avODT3QOXG8hPZ
+lVvuXY9cO7154dCLMexTfOjLipu/bTy1+enJtNHh2mNrXz8adygtc8L0WZdr529e
+MHz3jj2rCibeT+vjTalLqH9w52Ux9bOE9mlxURfuvetPqPKPdlK92uncqwl056up
+o2hiy4osNNHPr85ec257cnm8+nHz7RnRW6vTTmdefNzaNPhKzrUpqPeIIffX7555
+9vSPOlnXcXDkquqogn6P3q+84mtY8+KuLFDakd0ZGhuzsfBBzFfZH5VVZ9R8GJv6
+0httzd8/qSk4mbljbmvIOly8Lyo9WLHuUXN0Rg1ObFg5tfTw0UxPUScv/sXXWPLX
+57XVGVXdu0dc79rU584rC87vv/Td27/evTazhfhZZdLxcXMqtiROnl02dsC5ku5P
+8rMGtq0vbu8aNHXvQutWeUUdu/3wVl2Hd9w38Y39m1qWzM+pwFUXNlzeVvpE8zRs
+ajoLDrSe+WnMpfr2usnXl3SO6vgH
+=P5Ok
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
