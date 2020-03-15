@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Sacramento|Oxygen);
 
+:root {
+  --section-padding: 2rem;
+  --content-padding: 3rem;
+}
+
 html {
   padding: 0;
   margin: 0;
@@ -15,12 +20,18 @@ body {
 
 h1 {
   font-size: 5em;
-  line-height: 1em;
-  font-weight: normal;
 }
 
 h2 {
   font-size: 4em;
+}
+
+h1, h2 {
+  line-height: 1em;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-weight: normal;
+  margin: 15px;
 }
 
 h3 {
@@ -28,41 +39,12 @@ h3 {
   margin: 0 0 15px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 h3, h4, a {
   font-weight: bold;
-}
-
-p {
-  margin: 0;
-  font-size: 1.25em;
-  text-align: justify;
-  line-height: 2em;
-}
-
-img.img-responsive {
-  text-align: center;
-  margin: 0 auto;
-  width: 90%;
-}
-
-hr.header-underline {
-  width: 30%;
-  border: 1px solid red;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.inline-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.inline-list li {
-  margin: 0 20px;
 }
 
 nav {
@@ -70,37 +52,67 @@ nav {
   font-size: 1.3em;
 }
 
-a {
-  text-decoration: none;
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
+nav > ul > li {
+  margin: 0 20px;
+}
+
+section {
+  display: grid;
+  gap: var(--section-padding);
   background: white;
   max-width: 1170px;
-  margin: 15px auto 0 auto;
-  padding: 30px 0;
+  margin: 2rem auto 0 auto;
+  padding: 2rem 0;
   box-sizing: border-box;
   box-shadow: 0px 3px 3px #A9A9A9;
 }
 
-.container > h2 {
-  font-weight: normal;
+header > hr {
+  width: 30%;
+  border: 1px solid red;
 }
 
-.title {
+.content {
+  display: grid;
+  padding: 0 var(--content-padding);
+  gap: 1rem;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.content > img {
   text-align: center;
-  font-family: 'Sacramento', cursive;
-  margin: 15px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .content > img, .content > .text-content {
   grid-column: 1  / span 12;
-  padding: 30px;
   box-sizing: border-box;
+}
+
+p {
+  margin: 0 0 1em 0;
+  font-size: 1.25em;
+  text-align: justify;
+  line-height: 2em;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 /* Desktop-only */
 @media only screen and (min-width: 991px) {
+  .content {
+    gap: var(--content-padding);
+  }
+
   .content > img {
     grid-column: auto / span 4;
   }
@@ -109,7 +121,11 @@ a {
     grid-column: auto / span 8;
   }
 
-  .inline-list li {
+  #experience > .content > .text-content {
+    grid-column: 1 / span 12;
+  }
+
+  nav > ul > li {
     display: inline;
   }
 }
