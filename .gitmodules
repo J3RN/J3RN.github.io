@@ -1,15 +1,6 @@
 [submodule "goe"]
 	path = goe
 	url = https://github.com/J3RN/game-of-evolution
-[submodule "goe-beta"]
-	path = goe-beta
-	url = https://github.com/J3RN/game-of-evolution
-[submodule "t3rm"]
-	path = t3rm
-	url = https://github.com/J3RN/t3rm
-[submodule "genetic_cars_2"]
-	path = genetic_cars_2
-	url = https://github.com/J3RN/HTML5_Genetic_Cars
 [submodule "octotest"]
 	path = octotest
 	url = https://github.com/J3RN/octotest
